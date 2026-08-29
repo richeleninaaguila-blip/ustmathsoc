@@ -1,211 +1,229 @@
 const projects = [
 
-    {
-        title: "Recruitment 101",
-        type: "Recruitment Fair",
-        description:
-            "An annual event that opens the doors of the organization to members who share the same interests and advocacies.",
-        date:
-            "September 21–25, 2026 (Online) • September 28–October 2, 2026"
-    },
+```
+{
+    title: "Recruitment Fair",
+    type: "Recruitment",
+    description:
+        "An annual event that opens the doors of the organization to members who share the same interests and advocacies.",
+    date:
+        "September 21–25, 2026 (Online)<br>September 28–October 2, 2026",
+    eventDate: "2026-09-21"
+},
 
-    {
-        title: "General Assembly 1",
-        type: "General Assembly",
-        description:
-            "A gathering that welcomes members, presents the organization's plans and initiatives, and promotes engagement within the community.",
-        date: "October 2026"
-    },
+{
+    title: "General Assembly 1",
+    type: "Gen Assembly",
+    description:
+        "A gathering that welcomes members, presents the organization's plans and initiatives, and promotes engagement within the community.",
+    date: "October 2026",
+    eventDate: "2026-10-01"
+},
 
-    {
-        title:
-            "Byte by Byte 3.0: Unlocking Digital Proficiency Literacy",
-        type: "Community Development",
-        description:
-            "A project that promotes digital inclusion by equipping participants with practical competencies for education, work, and everyday life.",
-        date:
-            "Phase 1: September 2026 • Phase 2: November 16–21, 2026"
-    },
+{
+    title: "Byte by Byte 3.0: Unlocking Digital Proficiency Literacy",
+    type: "Community Development",
+    description:
+        "A project that promotes digital inclusion by equipping participants with practical competencies for education, work, and everyday life.",
+    date:
+        "Phase 1: September 2026<br>Phase 2: November 16–21, 2026",
+    eventDate: "2026-09-01"
+},
 
-    {
-        title:
-            "₱era-₱araan 4.0: A Seminar on Financial Literacy",
-        type: "Seminar",
-        description:
-            "A seminar featuring industry professionals that explores the applications of mathematics and data science in investing, finance, and financial decision-making.",
-        date: "December 4, 2026"
-    },
+{
+    title: "₱era-₱araan 4.0: A Seminar on Financial Literacy",
+    type: "Seminar",
+    description:
+        "A seminar featuring industry professionals that explores the applications of mathematics and data science in investing, finance, and financial decision-making.",
+    date: "December 4, 2026",
+    eventDate: "2026-12-04"
+},
 
-    {
-        title:
-            "LIMITLESS 10.0: The UST Mathematical Society Leadership Training Seminar",
-        type: "Teambuilding",
-        description:
-            "LIMITLESS, now on its 10th year, is the UST Mathematical Society's annual leadership training seminar. This year's LIMITLESS will be held in collaboration with APSoc and DSASoc.",
-        date: "January 2027"
-    },
+{
+    title: "LIMITLESS 10.0: The UST Mathematical Society Leadership Training Seminar",
+    type: "Teambuilding",
+    description:
+        "LIMITLESS, now on its 10th year, is the UST Mathematical Society's annual leadership training seminar. This year's Limitless will be held in collaboration with APSoc and DSASoc.",
+    date: "January 2027",
+    eventDate: "2027-01-01"
+},
 
-    {
-        title: "Face The Math Challenge 2027",
-        type: "Competition",
-        description:
-            "An intercollegiate quiz bee contest which aims to promote critical thinking and mathematical problem-solving.",
-        date: "February 2027"
-    },
+{
+    title: "Face The Math Challenge 2027",
+    type: "Competition",
+    description:
+        "An intercollegiate quiz bee contest which aims to promote critical thinking and mathematical problem-solving.",
+    date: "February 2027",
+    eventDate: "2027-02-01"
+},
 
-    {
-        title: "Mathematical Workshop",
-        type: "Workshop",
-        description:
-            "A skills-based workshop designed to equip students with practical mathematical and analytical tools relevant to academics, internships, and future careers.",
-        date: "March 2027"
-    },
+{
+    title: "Mathematical Workshop",
+    type: "Workshop",
+    description:
+        "A skills-based workshop designed to equip students with practical mathematical and analytical tools relevant to academics, internships, and future careers.",
+    date: "March 2027",
+    eventDate: "2027-03-01"
+},
 
-    {
-        title: "Gift to Grow 2.0",
-        type: "Community Development",
-        description:
-            "A year-round service-learning initiative headed by DSASoc that features an extended donation drive followed by a hands-on workshop where participants organize and prepare donated items for distribution to a partner community.",
-        date: "April 2027"
-    },
+{
+    title: "Gift to Grow 2.0",
+    type: "Community Development",
+    description:
+        "A year-round service-learning initiative headed by DSASoc that features an extended donation drive followed by a hands-on workshop where participants organize and prepare donated items for distribution to a partner community.",
+    date: "April 2027",
+    eventDate: "2027-04-01"
+},
 
-    {
-        title: "General Assembly 2",
-        type: "General Assembly",
-        description:
-            "General Assembly 2 aims to disseminate proposed amendments to the organization's Articles of Association, including the change in the organization's logo.",
-        date: "April 2027"
-    },
+{
+    title: "General Assembly 2",
+    type: "Gen Assembly",
+    description:
+        "A gathering that aims to disseminate proposed amendments to the organization's Articles of Association, including the change in the organization's logo.",
+    date: "April 2027",
+    eventDate: "2027-04-01"
+},
 
-    {
-        title: "Year-End Event",
-        type: "Year-End",
-        description:
-            "An event that provides a meaningful space for its members through reflecting, celebrating, and reconnecting with current and graduating members of the organization.",
-        date: "May 2027"
-    }
+{
+    title: "Year-End Event",
+    type: "Year-End",
+    description:
+        "An event that provides a meaningful space for members through reflecting, celebrating, and reconnecting with current and graduating members of the organization.",
+    date: "May 2027",
+    eventDate: "2027-05-01"
+}
+```
 
 ];
-
 
 const initiatives = [
 
-    {
-        title: "Freshie Week Activities",
-        type: "Orientation",
-        description:
-            "Activities designed to welcome and orient incoming students to the MathSoc community.",
-        date: "August 2026"
-    },
+```
+{
+    title: "Freshie Week Activities",
+    type: "Orientation",
+    description:
+        "Activities designed to welcome new students and introduce them to the MathSoc community.",
+    date: "August 2026"
+},
 
-    {
-        title: "Actuarial Survival Kit",
-        type: "Website",
-        description:
-            "A student-centered resource designed to help students navigate the Actuarial Science program and their university experience.",
-        date: "August 2026"
-    },
+{
+    title: "Actuarial Survival Kit",
+    type: "Website",
+    description:
+        "A student-centered website designed to provide useful information, tips, and guidance for Actuarial Science students.",
+    date: "August 2026"
+},
 
-    {
-        title: "Digital Library",
-        type: "Academic Resource",
-        description:
-            "An academic resource initiative designed to make useful learning materials more accessible to students.",
-        date: "August 2026"
-    },
+{
+    title: "Digital Library",
+    type: "Academic Resource",
+    description:
+        "A centralized academic resource initiative designed to make useful learning materials easier to access.",
+    date: "August 2026"
+},
 
-    {
-        title:
-            "Voice Network: Five-Layered Grievance System",
-        type: "Grievances",
-        description:
-            "A structured system intended to provide students with channels for communicating concerns and grievances.",
-        date: "August 2026"
-    },
+{
+    title: "Voice Network: Five-Layered Grievance System",
+    type: "Grievances",
+    description:
+        "A structured system designed to provide students with accessible channels for raising concerns and feedback.",
+    date: "August 2026"
+},
 
-    {
-        title: "ASK MathSoc",
-        type: "Tutoring Service",
-        description:
-            "A tutoring service developed to provide students with additional academic support.",
-        date: "September 2026"
-    },
+{
+    title: "ASK MathSoc",
+    type: "Tutoring Service",
+    description:
+        "A tutoring service designed to connect students with academic assistance and peer support.",
+    date: "September 2026"
+},
 
-    {
-        title: "MathSoc CoCreate",
-        type: "Project Management",
-        description:
-            "A collaborative initiative focused on developing ideas and projects within the organization.",
-        date: "September 2026"
-    },
+{
+    title: "MathSoc CoCreate",
+    type: "Project Management",
+    description:
+        "An initiative focused on collaborative project development and student participation.",
+    date: "September 2026"
+},
 
-    {
-        title: "Alumni Relations Database",
-        type: "Database",
-        description:
-            "A database initiative designed to strengthen MathSoc's connection with its alumni.",
-        date: "October 2026"
-    },
+{
+    title: "Alumni Relations Database",
+    type: "Database",
+    description:
+        "A database initiative designed to organize alumni information and strengthen connections with MathSoc graduates.",
+    date: "October 2026"
+},
 
+{
+    title: "Project ReCollect",
+    type: "Donation Drive",
+    description:
+        "A donation initiative focused on collecting useful academic and student resources for redistribution.",
+    date: "October 2026"
+},
 
-    {
-        title:
-            "Project R&R: Reflection & Recreation",
-        type: "TWA Hangout",
-        description:
-            "A community-building activity focused on reflection, recreation, and strengthening relationships among members.",
-        date: "October 2026 & March 2027"
-    },
+{
+    title: "Project R&R: Reflection & Recreation",
+    type: "TWA Hangout",
+    description:
+        "A social initiative providing opportunities for reflection, recreation, and community-building among members.",
+    date: "October 2026 & March 2027"
+},
 
-    {
-        title:
-            "ActuRated & Project Sanctuary",
-        type: "Social Media",
-        description:
-            "A social media initiative designed to provide relevant and engaging content for the MathSoc community.",
-        date: "October–December 2026"
-    },
+{
+    title: "ActuRated & Project Sanctuary",
+    type: "Social Media",
+    description:
+        "Social media initiatives designed to provide relevant and engaging content for the MathSoc community.",
+    date: "October–December 2026"
+},
 
-    {
-        title:
-            "Postings of DLs and St. Albert",
-        type: "Social Media",
-        description:
-            "Social media content recognizing and celebrating academic achievements and important occasions.",
-        date: "January 2027 & June 2027"
-    },
+{
+    title: "Postings of DLs and St. Albert",
+    type: "Social Media",
+    description:
+        "Social media postings highlighting academic recognitions and student achievements.",
+    date: "January 2027 & June 2027"
+},
 
-    {
-        title: "MathSoc Merchandise",
-        type: "Merchandise",
-        description:
-            "Official merchandise designed to strengthen MathSoc identity and community spirit.",
-        date: "November 2026–February 2027"
-    },
+{
+    title: "MathSoc Merchandise",
+    type: "Merchandise",
+    description:
+        "Official MathSoc merchandise created for students and members of the organization.",
+    date: "November 2026–February 2027"
+},
 
+{
+    title: "Alumni Sports Event",
+    type: "Socialization",
+    description:
+        "A community-building event that brings together current members and alumni through sports and recreation.",
+    date: "January 2027"
+},
 
-    {
-        title:
-            "The Constant Digital Campaign",
-        type: "Social Media",
-        description:
-            "A continuous digital campaign throughout the academic year.",
-        date: "Throughout AY 2026–2027"
-    }
+{
+    title: "The Constant Digital Campaign",
+    type: "Social Media",
+    description:
+        "A continuing digital campaign featuring MathSoc-related content throughout the academic year.",
+    date: "Throughout AY 2026–2027"
+}
+```
 
 ];
 
-
 function createCard(item) {
 
-    const card = document.createElement("article");
+```
+return `
 
-    card.className = "project-card";
+    <article class="project-card">
 
-    card.innerHTML = `
-        <div class="project-type">
+        <span class="project-type">
             ${item.type}
-        </div>
+        </span>
 
         <h3>
             ${item.title}
@@ -215,247 +233,261 @@ function createCard(item) {
             ${item.description}
         </p>
 
-        <div class="project-meta">
+        <span class="project-meta">
             ${item.date}
-        </div>
-    `;
+        </span>
 
-    return card;
+    </article>
+
+`;
+```
+
+}
+
+function displayProjects() {
+
+```
+const projectList =
+    document.getElementById("projectList");
+
+if (!projectList) return;
+
+projectList.innerHTML =
+    projects.map(createCard).join("");
+```
+
+}
+
+function displayInitiatives() {
+
+```
+const initiativeList =
+    document.getElementById("initiativeList");
+
+if (!initiativeList) return;
+
+initiativeList.innerHTML =
+    initiatives.map(createCard).join("");
+```
+
+}
+
+function getDateOnly(date) {
+
+```
+const result = new Date(date);
+
+result.setHours(0, 0, 0, 0);
+
+return result;
+```
+
+}
+
+function showFeaturedEvent() {
+
+```
+const title =
+    document.getElementById("featuredTitle");
+
+const description =
+    document.getElementById("featuredDescription");
+
+const date =
+    document.getElementById("featuredDate");
+
+const type =
+    document.getElementById("featuredType");
+
+const countdown =
+    document.getElementById("featuredCountdown");
+
+
+if (
+    !title ||
+    !description ||
+    !date ||
+    !type ||
+    !countdown
+) {
+    return;
 }
 
 
-function renderList(items, elementId) {
+const today = new Date();
 
-    const container =
-        document.getElementById(elementId);
+today.setHours(0, 0, 0, 0);
 
-    if (!container) {
-        return;
-    }
 
-    container.innerHTML = "";
+const oneWeek =
+    7 * 24 * 60 * 60 * 1000;
 
-    items.forEach(item => {
 
-        container.appendChild(
-            createCard(item)
+const upcomingEvents = projects
+
+    .map(project => ({
+
+        ...project,
+
+        eventDateObject:
+            getDateOnly(project.eventDate)
+
+    }))
+
+    .filter(project => {
+
+        const difference =
+            project.eventDateObject.getTime()
+            -
+            today.getTime();
+
+        return (
+            difference >= 0 &&
+            difference <= oneWeek
+        );
+
+    })
+
+    .sort((a, b) => {
+
+        return (
+            a.eventDateObject.getTime()
+            -
+            b.eventDateObject.getTime()
         );
 
     });
 
-}
 
+if (upcomingEvents.length === 0) {
 
-function getEventDate(dateText) {
+    countdown.textContent =
+        "STAY TUNED";
 
-    const months = {
-        January: 0,
-        February: 1,
-        March: 2,
-        April: 3,
-        May: 4,
-        June: 5,
-        July: 6,
-        August: 7,
-        September: 8,
-        October: 9,
-        November: 10,
-        December: 11
-    };
+    type.textContent =
+        "UPCOMING EVENTS";
 
+    title.textContent =
+        "Nothing happening this week.";
 
-    const match = dateText.match(
-        /January|February|March|April|May|June|July|August|September|October|November|December/
-    );
+    description.textContent =
+        "Stay connected with MathSoc for announcements and upcoming activities.";
 
+    date.textContent =
+        "AY 2026–2027";
 
-    if (!match) {
-        return null;
-    }
-
-
-    const yearMatch =
-        dateText.match(/20\d{2}/);
-
-
-    const year =
-        yearMatch
-            ? parseInt(yearMatch[0])
-            : new Date().getFullYear();
-
-
-    return new Date(
-        year,
-        months[match[0]],
-        1
-    );
+    return;
 
 }
 
 
-function updateFeaturedEvent() {
-
-    const featuredEvent =
-        document.getElementById("featuredEvent");
+const event =
+    upcomingEvents[0];
 
 
-    if (!featuredEvent) {
-        return;
-    }
-
-
-    const today = new Date();
-
-    today.setHours(
-        0,
-        0,
-        0,
-        0
+const daysUntil =
+    Math.ceil(
+        (
+            event.eventDateObject.getTime()
+            -
+            today.getTime()
+        )
+        /
+        (24 * 60 * 60 * 1000)
     );
 
 
-    const upcomingEvents = projects
-        .map(project => {
+if (daysUntil === 0) {
 
-            return {
-                ...project,
-                eventDate:
-                    getEventDate(project.date)
-            };
+    countdown.textContent =
+        "TODAY";
 
-        })
-        .filter(project => {
+}
 
-            if (!project.eventDate) {
-                return false;
-            }
+else if (daysUntil === 1) {
 
+    countdown.textContent =
+        "TOMORROW";
 
-            const difference =
-                project.eventDate.getTime() -
-                today.getTime();
+}
 
+else {
 
-            const daysUntil =
-                difference /
-                (1000 * 60 * 60 * 24);
+    countdown.textContent =
+        `${daysUntil} DAYS TO GO`;
+
+}
 
 
-            return (
-                daysUntil >= 0 &&
-                daysUntil <= 7
-            );
+type.textContent =
+    event.type.toUpperCase();
 
-        })
-        .sort((a, b) => {
 
-            return (
-                a.eventDate -
-                b.eventDate
-            );
+title.textContent =
+    event.title;
+
+
+description.textContent =
+    event.description;
+
+
+date.innerHTML =
+    event.date;
+```
+
+}
+
+function setupNavigation() {
+
+```
+const menuButton =
+    document.getElementById("menuButton");
+
+const navLinks =
+    document.getElementById("navLinks");
+
+
+if (!menuButton || !navLinks) {
+    return;
+}
+
+
+menuButton.addEventListener("click", () => {
+
+    navLinks.classList.toggle("active");
+
+});
+
+
+navLinks
+    .querySelectorAll("a")
+    .forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            navLinks.classList.remove("active");
 
         });
 
-
-    if (upcomingEvents.length === 0) {
-
-        featuredEvent.style.display =
-            "none";
-
-        return;
-    }
-
-
-    const event =
-        upcomingEvents[0];
-
-
-    document.getElementById(
-        "featuredTerm"
-    ).textContent =
-        event.type;
-
-
-    document.getElementById(
-        "featuredTitle"
-    ).textContent =
-        event.title;
-
-
-    document.getElementById(
-        "featuredDescription"
-    ).textContent =
-        event.description;
-
-
-    document.getElementById(
-        "featuredDate"
-    ).textContent =
-        event.date;
-
-}
-
-
-const menuButton =
-    document.getElementById(
-        "menuButton"
-    );
-
-
-const navLinks =
-    document.getElementById(
-        "navLinks"
-    );
-
-
-if (menuButton && navLinks) {
-
-    menuButton.addEventListener(
-        "click",
-        () => {
-
-            navLinks.classList.toggle(
-                "active"
-            );
-
-        }
-    );
-
-}
-
-
-document
-    .querySelectorAll(".nav-links a")
-    .forEach(link => {
-
-        link.addEventListener(
-            "click",
-            () => {
-
-                if (navLinks) {
-
-                    navLinks.classList.remove(
-                        "active"
-                    );
-
-                }
-
-            }
-        );
-
     });
+```
 
+}
 
-renderList(
-    projects,
-    "projectList"
+document.addEventListener(
+"DOMContentLoaded",
+() => {
+
+```
+    displayProjects();
+
+    displayInitiatives();
+
+    showFeaturedEvent();
+
+    setupNavigation();
+
+}
+```
+
 );
-
-
-renderList(
-    initiatives,
-    "initiativeList"
-);
-
-
-updateFeaturedEvent();
