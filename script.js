@@ -180,14 +180,6 @@ const initiatives = [
 },
 
 {
-    title: "Postings of DLs and St. Albert",
-    type: "Social Media",
-    description:
-        "Social media postings highlighting academic recognitions and student achievements.",
-    date: "January 2027 & June 2027"
-},
-
-{
     title: "MathSoc Merchandise",
     type: "Merchandise",
     description:
